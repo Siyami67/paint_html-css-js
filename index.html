@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Paint</title>
+</head>
+<body>
+    <div class="panel">
+
+        <label for="color">Color:</label>
+        <input id="color" type="color">
+    
+        <label for="linewidth">Linewidth:</label>
+        <input class="alan" id="linewidth" min="1" value="1" type="number">
+
+        <button onclick="clearCanvas()"><i>Clear</i></button>
+    </div>
+    <canvas id="canvas" width="1400" height="670" style="border:3px solid black;"></canvas>
+
+    <script src="paint.js"></script>
+</body>
+</html>
